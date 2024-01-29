@@ -47,15 +47,20 @@ img {
   background-color: #cbe5ff;
 }
 
+.item6 { 
+  grid-area: pad;
+  background-color: #fff;
+  } 
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-auto-rows: minmax(100px, auto);
   grid-template-areas:
-    'header header header header header header'
-    'nav nav nav nav nav nav'
-    'menu main main main main main'
-    'footer footer footer footer footer footer';
+    'header header header header header header header'
+    'nav nav nav nav nav nav nav'
+    'menu main main main main main main'
+    'footer footer footer footer footer footer footer';
   grid-gap: 0px;
   padding: 0px; 
   background-color: #fff;
@@ -127,9 +132,9 @@ background: #f1f1f1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: minmax(300px, auto);
-  column-gap: 10px;
+  column-gap: 20px;
   row-gap: 1em;
-  margin: 10px;
+  margin: 10px 10px 10px 60px;
 }
 
 .card {
